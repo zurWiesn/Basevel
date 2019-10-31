@@ -6,6 +6,9 @@
 
         <title>Laravel</title>
 
+        <link rel="shortcut icon" href="{{ asset('favicon.png') }}">
+
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
@@ -58,6 +61,15 @@
                 text-transform: uppercase;
             }
 
+            .basevel > a {
+                color: #636b6f;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+                text-decoration: underline;
+            }
+
             .m-b-md {
                 margin-bottom: 30px;
             }
@@ -81,10 +93,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                   <img src="{{asset('basevel.png')}}" alt="" width="150" /><br>
+                    Laravel + Basevel
                 </div>
 
-                <div class="links">
+                <div class="links m-b-md">
                     <a href="https://laravel.com/docs">Docs</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
@@ -93,6 +106,10 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://vapor.laravel.com">Vapor</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
+                </div>
+
+                <div>
+                  <p class="basevel"><a href="https://github.com/zurWiesn/Basevel">Basevel</a> is a Laravel 6 starter that includes authetication, testing, monitoring, and development packages.
                 </div>
             </div>
         </div>

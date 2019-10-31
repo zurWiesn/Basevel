@@ -1,3 +1,5 @@
+![Basevel](public/basevel.png)
+
 # Basevel
 
 Basevel is a base Laravel 6 project that comes out of the box with authentication and other popular packages including:
