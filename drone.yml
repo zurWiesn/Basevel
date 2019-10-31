@@ -1,0 +1,8 @@
+kind: pipeline
+name: basevel
+
+steps:
+- name: test
+  image: php:alpine
+  commands:
+  - artisan serve
